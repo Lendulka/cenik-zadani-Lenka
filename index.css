@@ -31,6 +31,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px #aaa;
   text-align: center;
+  cursor: pointer
 }
 
 .plan h2 {

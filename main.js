@@ -7,9 +7,9 @@ Napište funkci selectPlan s jedním parametrem planNumber. Tento parametr bude 
 Opakovaným voláním funkce selectPlan lze na stránce postupně vybrat všechny plány. My bychom však chtěli, aby mohl být vybrát vždy nejvýš jeden. Upravte funkci selectPlan tak, že vybere plán zadaný v parametru a u ostatních plánů výběr zruší. Ke zrušení výběru stačí z příslušného prvku odebrat třídu plan--selected.
 */
 
-let elementPlan1 = document.querySelector('#plan1')
-let elementPlan2 = document.querySelector('#plan2')
-let elementPlan3 = document.querySelector('#plan3')
+let elementPlan1 = document.getElementById('plan1')
+let elementPlan2 = document.getElementById('plan2')
+let elementPlan3 = document.getElementById('plan3')
 
 const selectPlan = (planNumber) => {
     let target = planNumber.target
